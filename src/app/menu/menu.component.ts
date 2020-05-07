@@ -19,8 +19,4 @@ export class MenuComponent implements OnInit {
     this.dishes = this.dishServise.getDishes();
   }
 
-  onSelect(dish :Dish){
-    this.selectedDish = dish ;
-  }
-
 }
